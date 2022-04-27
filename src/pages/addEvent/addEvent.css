@@ -1,0 +1,155 @@
+.addEve{
+    padding-top: 50px;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://media.istockphoto.com/photos/home-office-desk-table-with-coffee-cup-bouquet-of-spring-flowers-lily-picture-id1310455436?b=1&k=20&m=1310455436&s=170667a&w=0&h=chdh2N8T_Gk7D2-dOcUTT_YjS4B4eKNl98cgSK6nuzg=);
+    background-size: cover;
+    text-align: center;
+}
+.addImgEve{
+    
+    width: 49%;
+    height: 70%;
+    border-radius: 10px;
+    object-fit: cover;
+    /* margin-left:25%; */
+}
+
+.addInputImgEve{
+    width: 20%;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+.addImageEvent{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 100px; */
+    margin-bottom:5px;
+    /* padding-bottom: 10px; */
+}
+.addImageTextEve{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 100px; */
+}
+
+.addTitleTextEve{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+}
+
+.addVenueTextEve{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+.addImageEve{
+    width: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    outline: none;
+}
+
+.addFormEve{
+    position: relative;
+}
+
+.addFormGroupEve{
+    margin-left: 100px;
+}
+
+
+.addInputEve{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    width: 15%;
+}
+
+.addVenueEve{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-bottom:30px;
+}
+
+.addCatEve{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    margin-bottom:10px;
+    padding-bottom: 10px;
+}
+
+
+.addOptionEve{
+    font-size: 20px;
+    font-weight: bold;
+    /* border-radius: 10%; */
+    border : 2px solid black;
+    width: 200px;
+    height: 40px;
+}
+
+.addDateEve{
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    width: 12%;
+    height: 20px;
+}
+
+.addPrizeEve{
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    width: 8%;
+    height: 20px;
+}
+
+.addTextEve{
+    font-size: 20px;
+    height:50vh;
+    width: 80%;
+    color: rgb(32, 34, 34);
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    /* margin-left: 40px; */
+    background-color: rgba(103, 114, 116, 0.432);
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.418);
+}
+
+.addTextEve:focus{
+    /* background-color: aliceblue; */
+    background-color: aliceblue;
+    /* box-shadow: aliceblue 0px 8px 24px, aliceblue 0px 16px 56px, aliceblue 0px 24px 80px; */
+    box-shadow: aliceblue 0px 20px 30px -10px;
+}
+
+.addSubmitEve{
+    /* margin-left :calc(35%); */
+    top: 20px;
+    right: 60px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

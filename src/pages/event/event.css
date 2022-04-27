@@ -1,0 +1,14 @@
+/* .event{
+    display: flex;
+ } */
+
+
+ .eventh3{
+    text-align: center;
+    display: flex;
+    flex:1;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}

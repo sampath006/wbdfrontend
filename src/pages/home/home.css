@@ -1,0 +1,43 @@
+/* .home{
+    display: flex;
+ } */
+
+ .searchHome{
+     width: 100%;
+     margin-bottom: 40px;
+     height: 60px;
+     text-align: center;
+ }
+
+ .searchTitle{
+    float:right;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.searchByTitle{
+    border-radius: 20px;
+    height: 40px;
+    width:150px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: width 0.5s ease-in-out;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.searchByTitle:focus{
+    width:250px;
+}
+
+ .paginate{
+     /* width: 100%; */
+     margin-bottom: 20px;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .innerPaginate{
+    display: flex;
+    justify-content: center;
+ }
+

@@ -1,0 +1,37 @@
+.sidebarItem{
+    text-align: center;
+    background-color: gray;
+    /* padding-top: 15px; */
+    padding-bottom: 15px;
+}
+
+.sidebarTitle{
+    font-size: 25px;
+}
+
+.sidebarListItem{
+    display: inline;
+    cursor: pointer;
+    /* padding: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 25px;
+}
+
+.sidebarListItem:hover{
+    color: black;
+}
+
+.sidebarListItem:active{
+    font-size: 30px;
+    color: violet;
+}
+
+th{
+    width: 50%;
+}
+
+.filterCategories{
+    padding-top: 15px;;
+}

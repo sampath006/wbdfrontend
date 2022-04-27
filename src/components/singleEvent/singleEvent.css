@@ -1,0 +1,138 @@
+.singleEvent{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23%;
+}
+.singleEventWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleEventImg{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singleWrapperImg{
+    width: 400px;
+    width: 60%;
+    object-fit: cover;
+}
+
+.singleEventTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+}
+
+.singleEventVenue{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+    color: #b39656;
+    margin-top: -10px;
+}
+
+.singleEventTitleInput{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.singleEventVenueInput{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.singleEventTitleInput:focus{
+    outline: none;
+}
+
+.singleEventEdit{
+    float: right;
+    font-size: 16px;
+    margin-left: 500px;
+}
+
+.singleEventIcon{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.singleEventIcon:first-child{
+    color: teal;
+}
+
+.singleEventIcon:last-child{
+    color: tomato;
+}
+
+.singleEventInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family:  'Varela Round',sans-serif;
+}
+
+.singleEventAuthor{
+    cursor: pointer;
+}
+
+.singleEventDate{
+    margin-left: 100px;
+}
+
+.singleEventDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singleEventDescInput{
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singleEventDescInput:focus{
+    outline: none;
+}
+
+.singleEventDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.singleEventButton{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}

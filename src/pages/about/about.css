@@ -1,0 +1,123 @@
+.about-content {
+  position:inherit;
+  /* margin-bottom: 10px; */
+  background-color: rgb(224, 223, 219);  
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Pacifico-Regular.ttf);
+  font-weight: 100;
+}
+.contain{
+display:flex;
+flex-wrap:wrap;
+}
+/* @media (max-width : 500px){
+.text-block-left{
+  width : 10%;
+}
+} */
+
+/* Bottom right text */
+.text-block-left {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+  margin-left: 10px;
+  
+}
+
+.about-heading{
+  margin : 0px 0px 30px 0px;
+  text-align: center;
+padding-top: 20px;
+  height:100%;
+}
+.style-hr{
+border: 2px solid black;
+margin :0px 10px 0px 10px;
+}
+.about-img{
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 5%;
+  margin-left:50px;
+  margin-bottom: 50px;
+  box-shadow:5px 5px 15px rgba(0, 0, 0, 0.418);
+  border-radius: 50% 25% 50%;
+  /* padding-top: 10%; */
+}
+/* img.about-img{
+  min-width: 500px;
+  width: 500px;
+} */
+.text-block-right{ 
+  clear: both;
+  margin-top: 125px;
+      align-items: center;
+      margin-left: calc(35%);
+  }
+
+.about-quote{
+font-family: myFirstFont;
+    /* margin-top: 50px; */
+    margin: 50px;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 60px;
+    padding: 20px;
+    border: 5px solid black;
+    color: rgb(151, 112, 3);
+    word-wrap: normal;
+    background-color: rgb(245, 216, 180);
+
+    box-shadow: rgba(245, 216, 180, 0.17) 0px -23px 25px 0px inset, rgba(245, 216, 180, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(245, 216, 180, 0.09) 0px 16px 8px, rgba(245, 216, 180, 0.09) 0px 32px 16px;
+    
+  }
+
+h2{
+    /* font-family : myFirstFont; */
+    margin-top: 75px;
+    margin-bottom: 20px;
+    /* background-color: black; */
+    background: linear-gradient(45deg,#f0d0c3,#c0ece6);
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.418);
+    color: rgba(54, 5, 5, 0.747);
+    width: 200px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size:x-large;
+}
+x
+p{
+    font-size: x-large;
+}
+/* li{
+  margin: 20px ;
+  display: flex;
+  flex-wrap:wrap;
+} */
+ul.names{
+  font-size: x-large;
+  margin: 20px ;
+  /* display: flex;
+  flex-wrap:wrap; */
+}
+Button{
+border-radius:50%;
+border:2px black;
+margin :10px;
+align-items: center;
+}
+
+
+/* h2{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    width: 200px;
+} */

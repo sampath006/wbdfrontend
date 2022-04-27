@@ -1,0 +1,50 @@
+.adminPage{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.adminHeader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, rgba(170, 71, 71, 0), rgb(68, 47, 160));
+    color: white;
+    background-color: black;
+    height: 50px;;
+}
+
+.postsCount{
+    float: left;
+    font-size: 1.6em;
+    /* font-weight: bold; */
+    border-radius: 12px;
+    margin-left:20px;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+.eventsCount{
+    float: right;
+    font-size: 1.6em;
+    /* font-weight: bold; */
+    border-radius: 12px;
+    margin-right:20px;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+}
+.addEvent{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 150px;
+    margin-top: 20px;
+    top:72px;
+    z-index: 999;
+    cursor: pointer;
+}
