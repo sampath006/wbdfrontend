@@ -17,7 +17,11 @@ import AdminPage from "./pages/adminpage/AdminPage";
 function App() {
   // fetchinh user detials from the context
 const {user} = useContext(Context)
+fetch('https://aqueous-coast-70292.herokuapp.com/').then(res=>
+      res.json()
+    ).then(data => console.log(data))
   return (
+    
     <Router>
       <Switch>
         <Route exact path="/">
